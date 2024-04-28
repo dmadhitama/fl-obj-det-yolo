@@ -2,14 +2,9 @@ from ultralytics.utils.plotting import Annotator
 import torch
 
 class AnnotatorMeasurement(Annotator):
-    def check(self):
-        print("Checking mode")
-        pass
-
     def get_center(
             self,
             box,
-            label="",
         ):
         if isinstance(box, torch.Tensor):
             box = box.tolist()
@@ -29,3 +24,14 @@ class AnnotatorMeasurement(Annotator):
             float(center_ref[0] - centers[0])/float(units[0]), 
             float(centers[1] - center_ref[1])/float(units[1]), 
         )
+    
+    def estimate_box_size(
+            self,
+            box, # (x1, y1, x2, y2) coordinates of bounding box
+            units, # (x, y) unit (coef) scalar of coordinates
+        ):
+        return (
+            float(box[2] - box[0])/float(units[0]),
+            float(box[3] - box[1])/float(units[1]),
+        )
+    
