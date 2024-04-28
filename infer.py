@@ -32,38 +32,31 @@ def parse_args():
     # Device settings
     parser.add_argument('--device', type=str, default='', help='CUDA device, i.e. 0 or 0,1,2,3 or cpu')
     parser.add_argument('--dnn', action='store_true', help='use OpenCV DNN for ONNX inference')
-    parser.add_argument('--half', action='store_true', help='use FP16 half-precision inference')
-    
+    parser.add_argument('--half', action='store_true', help='use FP16 half-precision inference')    
     # Model settings
-    parser.add_argument('--weights', type=str, default='yolov5/runs/train/exp8/weights/best.pt', help='model.pt path')
-    
+    parser.add_argument('--weights', type=str, default='yolov5/runs/train/exp8/weights/best.pt', help='model.pt path')    
     # Data settings
     parser.add_argument('--data', type=str, default='yolov5/data/v2.yaml', help='dataset.yaml path')
     parser.add_argument('--imgsz', nargs='+', type=int, default=[640, 640], help='inference size h,w')
-    parser.add_argument('--augment', action='store_true', help='augmented inference')
-    
+    parser.add_argument('--augment', action='store_true', help='augmented inference')    
     # Batch size
-    parser.add_argument('--bs', type=int, default=1, help='batch size')
-    
+    parser.add_argument('--bs', type=int, default=1, help='batch size')    
     # Source settings
     parser.add_argument('--source', type=str, default='C:\\Others\\datasets\\augments\\test\\WIN_20240404_15_41_03_Pro0000.jpg', help='file or dir')
-    parser.add_argument('--vid-stride', type=int, default=1, help='video frame-rate stride')
-    
+    parser.add_argument('--vid-stride', type=int, default=1, help='video frame-rate stride')    
     # Output settings
     parser.add_argument('--project', default='detects/', help='save results to project/name')
     parser.add_argument('--name', default='exp/', help='save results to project/name')
     parser.add_argument('--exist-ok', action='store_true', help='existing project/name ok, do not increment')
     parser.add_argument('--save-txt', action='store_true', help='save results to *.txt')
     parser.add_argument('--save-csv', action='store_true', help='save results to *.csv')
-    
     # Detection settings
     parser.add_argument('--visualize', action='store_true', help='visualize features')
     parser.add_argument('--conf-thres', type=float, default=0.8, help='confidence threshold')
     parser.add_argument('--iou-thres', type=float, default=0.45, help='NMS IOU threshold')
     parser.add_argument('--max-det', type=int, default=1000, help='maximum detections per image')
     parser.add_argument('--classes', nargs='+', type=int, help='filter by class: --class 0, or --class 0 2 3')
-    parser.add_argument('--agnostic-nms', action='store_true', help='class-agnostic NMS')
-    
+    parser.add_argument('--agnostic-nms', action='store_true', help='class-agnostic NMS')    
     # Visualization settings
     parser.add_argument('--line-thickness', default=2, type=int, help='bounding box thickness (pixels)')
     parser.add_argument('--hide-labels', default=False, action='store_true', help='hide labels')
@@ -74,6 +67,7 @@ def parse_args():
 
 
 if __name__ == "__main__":
+    
     opt = parse_args()
 
     # Load model

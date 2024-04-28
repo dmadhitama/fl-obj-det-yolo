@@ -65,15 +65,30 @@ class AnnotatorMeasurement(Annotator):
     
     def draw_coordinate_label(
             self,
-            img, # image to be labeled
-            coordinate, # coordinate (x, y)
-            scaled_coordinate, # scaled coordinate to be labeled (x, y)
-            text, # text to write on the label
-            font, # font to use
-            font_scale, # font scale
-            thickness, # thickness of the label
-            color, # color of the label
+            img, 
+            coordinate, 
+            scaled_coordinate, 
+            text, 
+            font, 
+            font_scale,
+            thickness,
+            color,
     ):
+        """Draw coordinates label
+        
+        Args:
+            img: image to be labeled
+            coordinate: coordinate (x, y)
+            scaled_coordinate: scaled coordinate to be labeled (x, y)
+            text: text to write on the label
+            font: font to use
+            font_scale: font scale
+            thickness: thickness of the label
+            color: color of the label
+
+        Returns:
+            Image with the label drawn
+        """
         text_size, _ = cv2.getTextSize(
             text, 
             font, 
@@ -97,6 +112,5 @@ class AnnotatorMeasurement(Annotator):
             fontScale=font_scale,
             color=(255,255,255),
             thickness=thickness,
-            # lineType=cv2.LINE_AA,
         )
         return img
