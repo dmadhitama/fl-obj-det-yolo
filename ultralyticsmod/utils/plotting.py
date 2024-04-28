@@ -18,9 +18,14 @@ class AnnotatorMeasurement(Annotator):
         center_y = (box[1] + box[3]) / 2
         return center_x, center_y
     
-    def label_center(
+    def estimate_coordinate(
             self,
-            box,
-            label="",
+            centers, # (x, y) center coordinates of bounding box
+            center_ref, # (x, y) center coordinate of reference
+            units, # (x, y) unit (coef) scalar of coordinates
         ):
-        center_x, center_y = self.get_center(box)
+        # return coordinates is based on displayed axis on image
+        return (
+            float(center_ref[0] - centers[0])/float(units[0]), 
+            float(centers[1] - center_ref[1])/float(units[1]), 
+        )
