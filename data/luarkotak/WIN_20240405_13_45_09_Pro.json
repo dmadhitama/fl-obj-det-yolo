@@ -1,0 +1,82 @@
+{
+  "version": "5.4.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "table",
+      "points": [
+        [
+          323.6144578313225,
+          1058.0722891566247
+        ],
+        [
+          1445.5421686746993,
+          330.3614457831326
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "ref",
+      "points": [
+        [
+          775.6626506024097,
+          786.9879518072286
+        ],
+        [
+          1026.2650602409637,
+          555.6626506024097
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "object",
+      "points": [
+        [
+          1239.5180722891566,
+          942.4096385542169
+        ],
+        [
+          1364.8192771084337,
+          827.9518072289158
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "object",
+      "points": [
+        [
+          382.8915662650599,
+          854.4578313253011
+        ],
+        [
+          525.0602409638554,
+          980.9638554216867
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "WIN_20240405_13_45_09_Pro.jpg",
+  "imageData": null,
+  "imageHeight": 1080,
+  "imageWidth": 1920
+}

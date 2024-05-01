@@ -1,0 +1,46 @@
+{
+  "version": "5.4.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "table",
+      "points": [
+        [
+          441.92771084337346,
+          1054.4578313252982
+        ],
+        [
+          1556.3855421686746,
+          330.3614457831325
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "ref",
+      "points": [
+        [
+          887.7108433734934,
+          786.9879518072281
+        ],
+        [
+          1126.265060240965,
+          556.8674698795181
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "WIN_20240404_15_07_03_Pro.jpg",
+  "imageData": null,
+  "imageHeight": 1080,
+  "imageWidth": 1920
+}

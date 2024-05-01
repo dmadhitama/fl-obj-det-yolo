@@ -1,0 +1,100 @@
+{
+  "version": "5.4.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "table",
+      "points": [
+        [
+          391.3253012048194,
+          1059.2771084337323
+        ],
+        [
+          1506.9879518072323,
+          326.74698795180745
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "ref",
+      "points": [
+        [
+          837.1084337349391,
+          784.5783132530122
+        ],
+        [
+          1076.867469879518,
+          553.2530120481928
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "object",
+      "points": [
+        [
+          645.5421686746995,
+          961.6867469879513
+        ],
+        [
+          774.4578313253013,
+          841.2048192771084
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "object",
+      "points": [
+        [
+          460.0,
+          780.9638554216867
+        ],
+        [
+          598.5542168674699,
+          900.2409638554217
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "object",
+      "points": [
+        [
+          663.6144578313242,
+          641.2048192771085
+        ],
+        [
+          787.710843373494,
+          761.6867469879519
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "WIN_20240405_14_22_11_Pro.jpg",
+  "imageData": null,
+  "imageHeight": 1080,
+  "imageWidth": 1920
+}

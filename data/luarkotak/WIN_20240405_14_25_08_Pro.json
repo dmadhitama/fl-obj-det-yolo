@@ -1,0 +1,118 @@
+{
+  "version": "5.4.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "table",
+      "points": [
+        [
+          500.96385542168684,
+          1053.2530120481886
+        ],
+        [
+          1616.626506024094,
+          327.9518072289156
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "ref",
+      "points": [
+        [
+          947.9518072289147,
+          788.1927710843376
+        ],
+        [
+          1187.7108433734936,
+          556.8674698795181
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "object",
+      "points": [
+        [
+          1276.8674698795185,
+          899.0361445783127
+        ],
+        [
+          1408.1927710843372,
+          779.7590361445782
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "object",
+      "points": [
+        [
+          766.0240963855418,
+          666.5060240963854
+        ],
+        [
+          881.6867469879518,
+          783.3734939759037
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "object",
+      "points": [
+        [
+          775.6626506024083,
+          467.7108433734941
+        ],
+        [
+          888.9156626506025,
+          583.3734939759036
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "object",
+      "points": [
+        [
+          1297.3493975903614,
+          542.4096385542169
+        ],
+        [
+          1431.0843373493976,
+          660.4819277108434
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "WIN_20240405_14_25_08_Pro.jpg",
+  "imageData": null,
+  "imageHeight": 1080,
+  "imageWidth": 1920
+}

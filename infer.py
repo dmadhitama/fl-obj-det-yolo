@@ -155,11 +155,6 @@ if __name__ == "__main__":
                 # Rescale boxes from img_size to im0 size
                 det[:, :4] = scale_boxes(im.shape[2:], det[:, :4], im0.shape).round()
 
-                # Print results
-                for c in det[:, 5].unique():
-                    n = (det[:, 5] == c).sum()  # detections per class
-                    s += f"{n} {names[int(c)]}{'s' * (n > 1)}, "  # add to string
-
                 # Write results
                 measurement = {
                     "center": {},
@@ -170,8 +165,8 @@ if __name__ == "__main__":
                 for *xyxy, conf, cls in reversed(det):
                     c = int(cls)  # integer class
                     label = names[c] if opt.hide_conf else f"{names[c]}"
-                    confidence = float(conf)
-                    confidence_str = f"{confidence:.2f}"
+                    # confidence = float(conf)
+                    # confidence_str = f"{confidence:.2f}"
                     obj_color[label] = colors(c, True)
                     
                     if label == "ref":

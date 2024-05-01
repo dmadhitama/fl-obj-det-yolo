@@ -1,2 +1,4 @@
 
 detects/
+*.zip
+.vscode

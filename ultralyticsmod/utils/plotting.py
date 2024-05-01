@@ -98,7 +98,7 @@ class AnnotatorMeasurement(Annotator):
         text_w, text_h = text_size
         img = cv2.rectangle(
             img,
-            (int(coordinate[0]),int(coordinate[1])-15),
+            (int(coordinate[0]),int(coordinate[1])-10),
             (int(coordinate[0]) + int(text_w), int(coordinate[1]) + int(text_h)),
             color,
             -1,
@@ -107,7 +107,7 @@ class AnnotatorMeasurement(Annotator):
         img = cv2.putText(
             img,
             f'[{round(scaled_coordinate[0],2)}, {round(scaled_coordinate[1],2)}]', 
-            (int(coordinate[0]),int(coordinate[1])),
+            (int(coordinate[0]),int(coordinate[1])+5),
             fontFace=font, 
             fontScale=font_scale,
             color=(255,255,255),

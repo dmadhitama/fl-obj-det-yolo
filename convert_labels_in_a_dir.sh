@@ -1,13 +1,13 @@
 #!/bin/bash
 
 # Usage:
-# ./script_name.sh <folder_path>
+# ./convert_labels_in_a_dir.sh <folder_path>
 
 folder=$1
 
 if [ -z "$folder" ]; then
   echo "Error: No folder path was provided."
-  echo "Usage:./script_name.sh <folder_path>"
+  echo "Usage:./convert_labels_in_a_dir.sh <folder_path>"
   exit 1
 fi
 
