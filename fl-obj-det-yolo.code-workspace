@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../yolov5"
+		},
+		{
+			"path": "../datasets"
+		}
+	],
+	"settings": {}
+}
